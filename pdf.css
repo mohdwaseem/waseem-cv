@@ -1,0 +1,22 @@
+/* Hide section headers (h3) but keep main name (h1) */
+h3 { display: none; }
+
+/* Suppress horizontal rules created by --- */
+hr { display: none; }
+
+/* Tighten vertical spacing */
+body { font-family: "Segoe UI", Arial, sans-serif; line-height: 1.25; }
+p { margin: 2px 0 4px; }
+
+/* Lists: reduce indentation and spacing */
+ul { margin: 2px 0 4px 14px; }
+li { margin: 0 0 2px; }
+
+/* Name styling */
+h1 { margin-bottom: 4px; font-size: 22pt; }
+
+/* Remove extra page breaks if any custom divs remain */
+div[style*="page-break-after"] { display: none; }
+
+/* Prevent orphan lines (basic attempt) */
+@page { }
